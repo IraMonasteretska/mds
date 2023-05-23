@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/plyr-player.css">
+    <link rel="stylesheet" href="css/lib/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="logo"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></div>
+                    <button class="burger burger2"><span></span></button>
+                </div>
+                <div class="col-lg-10 mobsect">
+                    <div class="header__rightsect">
+                        <ul class="header__menu">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class="menu-item-has-children mainmenu">
+                                <a href="#">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Botox</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="services.html">Botox injections</a></li>
+                                            <li><a href="services.html">Hyperhydrosis of armpits and palms with Botox</a></li>
+                                            <li><a href="services.html">Gummy Smile</a></li>
+                                            <li><a href="services.html">Masseter Botox</a></li>
+                                            <li><a href="services.html">Migraine Botox</a></li>
+                                            <li><a href="services.html">Wrinkle Therapy</a></li>
+                                            <li><a href="services.html">Nasolabial fold treatment with Botox</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Fillers</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="services.html">Chin Augmentation</a></li>
+                                            <li><a href="services.html">Lip Augmentation</a></li>
+                                            <li><a href="services.html">Jaw line with fillers</a></li>
+                                            <li><a href="services.html">Nasolabial Filler</a></li>
+                                            <li><a href="services.html">Nonsurgical Nasal Correction</a></li>
+                                            <li><a href="services.html">Cheeks with fillers</a></li>
+                                            <li><a href="services.html">But augmentation with radiass</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Laser treatments</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="services.html">Laser Carbon Peel</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">Other Treatments</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="services.html">IV infusion therapy with vitamins</a></li>
+                                            <li><a href="services.html">Weight Loss Therapy</a></li>
+                                            <li><a href="services.html">Mesotherapy</a></li>
+                                            <li><a href="services.html">Nonsurgical Fat Reduction</a></li>
+                                            <li><a href="services.html">Semaglutide</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                        <ul class="header__social">
+                            <li><a href="tel:3474039726">(347) 403-9726</a></li>
+                            <li><a href="#" target="_blank"><img src="img/instagram.svg" alt="instagram"></a></li>
+                            <li><a href="#" target="_blank"><img src="img/facebook.svg" alt="facebook"></a></li>
+                        </ul>
+                        <div class="header__address">
+                            <p>
+                                7915 Metropolitan Ave,<br> Middle Village, NY 11379
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcomescreen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="welcomescreen__leftsect">
+                            <h1>
+                                Get ready to see
+                                the younger you!
+                            </h1>
+                            <p>
+                                Welcome to Touched by MDS. We're committed to helping our patients and making them feel
+                                younger.
+                                <img src="img/heart.svg" alt="icon">
+                            </p>
+                            <div class="welcomescreen__video">
+                                <video controls playsinline poster="img/videoposter.png" id="player"
+                                    class="video__controls">
+                                    <source src="video/video2.mov" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="pinkbtn">Call for appointment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="welcomescreen__right">
+                            <img class="welcomeimg" src="img/girl.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scene" class="welcomescreen__parallax par1">
+                <div data-depth="0.2"><img src="img/parallax1.png" alt="img"></div>
+            </div>
+            <div id="scene1" class="welcomescreen__parallax par2">
+                <div data-depth="-0.1"><img src="img/parallax2.png" alt="img"></div>
+                <div data-depth="-0.1"><img src="img/parallax3.png" alt="img"></div>
+            </div>
+        </section>
+
+        <section class="ourdoctors">
+            <div class="ourdoctors__wrapper">
+                <div class="container">
+                    <div class="ourdoctors__topsect">
+                        <div class="ourdoctors__topsect-info">
+                            <img src="img/secticon.png" alt="img">
+                            <h3>
+                                Our qualified and well-trained doctors perform procedures, within our well-equipped
+                                facility.
+                            </h3>
+                            <p>
+                                All procedures are undertaken with all standards, sterilization practices and
+                                protocols.<br>
+                                Your doctor will take great care in explaining the character of your procedure
+                            </p>
+                        </div>
+                        <div class="ourdoctors__topsect-docs">
+                            <div class="ourdoctors__topsect-docswrap">
+                                <h3>
+                                    Our doctors
+                                </h3>
+                                <p>
+                                    Our team of professionals with 16 years of experience are excited to share with you
+                                    our
+                                    customized and unique approach to beauty and wellness.
+                                </p>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 d-flex justify-content-between">
+                                    <div class="docbox">
+                                        <img src="img/doc1.png" alt="img">
+                                        <p class="name">Dr. Irina Espinar</p>
+                                        <div class="descr">
+                                            <p>
+                                                Dr. Irina Espinar MD is an internal medicine specialist in NY and has
+                                                over 25 years of experience in the medical field. Irina is a dedicated
+                                                and diligent internist and primary care doctor.
+                                            </p>
+                                            <p>
+                                                Dr. Irina Espinar is a board certified physician with 14 years of
+                                                experience as well, certified in PRP, Facial Aesthetics, Weigh Loss,
+                                                Botox, Filler, Micro Needling and Laser Aesthetics.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="docbox">
+                                        <img src="img/doc2.png" alt="img">
+                                        <p class="name">Dr. Nadezhda Badalova</p>
+                                        <div class="descr">
+                                            <p>
+                                                Dr. Badalova is Board certified MD. She is an internist and primary care
+                                                doctor. Nadezhda works in NY and specializes in Internal Medicine
+                                            </p>
+                                            <p>
+                                                Dr. Nadezhda Badalova is a board certified physician with 14 years of
+                                                experience as well, certified in PRP, Facial Aesthetics, Weigh Loss,
+                                                Botox, Filler, Micro Needling and Laser Aesthetics.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourdoctors__botsect">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7">
+                                        <h3>
+                                            Schedule an appointment and <br> get a FREE consultation!
+                                        </h3>
+                                        <p>
+                                            Get ready to see the younger you!
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5 text-end">
+                                        <a href="#" class="pinkbtn">Call for appointment</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicessect" id="services">
+            <div class="container">
+                <div class="servicessect__topsect">
+                    <h2>
+                        Our services & specialties.<br> Find the care you need
+                    </h2>
+                    <div class="servicessect__descr">
+                        <p>
+                            All procedures are undertaken with all standards, sterilization practices and protocols <img
+                                src="img/heart.svg" alt="icon">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicessect__services">
+                <div class="servicesgroup">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="aftbefblock">
+                                    <p class="title">Botox</p>
+                                    <div class="aftbefbox">
+                                        <p class="aftbefbox__title">Before</p>
+                                        <div class="imgwrap">
+                                            <img src="img/aftbef1.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="aftbefbox">
+                                        <p class="aftbefbox__title">After</p>
+                                        <div class="imgwrap">
+                                            <img src="img/aftbef2.png" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7">
+                                <div class="row servrow">
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Botox injections</p>
+                                                <p class="descr">
+                                                    Botox injections block certain chemical signals from nerves, mostly
+                                                    signals that cause muscles to contract. The most common use of these
+                                                    injections is to temporarily relax the facial muscles that cause
+                                                    wrinkles in the forehead and around the eyes.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Hyperhydrosis of armpits
+                                                    and palms with Botox</p>
+                                                <p class="descr">
+                                                    Hyperhidrosis is excessive sweating that is unrelated to heat or
+                                                    exercise. According to the International Hyperhidrosis Society,
+                                                    underarm Botox injections can reduce underarm sweating by 82–87%.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Gummy Smile</p>
+                                                <p class="descr">
+                                                    Botox is injected in the area between your upper lip and nose to
+                                                    temporarily freeze the muscles that contract or elevate when you
+                                                    smile which allows you to smile without showing your gums.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Masseter Botox</p>
+                                                <p class="descr">
+                                                    The Masseter is located on the side of your face and connects your
+                                                    cheekbone to your lower jawbone. When Botox is injected into the
+                                                    masseter, it’s called a masseter Botox. The treatment uses
+                                                    botulinum botox to temporarily block nerve signals in the masseter.
+                                                    You will still be able to chew, move your jaw, and make normal
+                                                    facial expressions after your treatment
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Migraine Botox</p>
+                                                <p class="descr">
+                                                    For this treatment, botox is injected into 7 specific muscle areas
+                                                    around your head and neck to prevent migraine headaches or migraine
+                                                    attacks before they even start. These areas include the forehead,
+                                                    the temples, the bridge of the nose, the neck, the back of the head,
+                                                    and just above the shoulder blades in your upper back.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Wrinkle Therapy</p>
+                                                <p class="descr">
+                                                    Botox uses various forms of botulinum botox to temporarily paralyze
+                                                    or relax muscle activity and is a good option for dynamic wrinkles.
+                                                    It can smooth out wrinkles and restore a more youthful appearance.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Nasolabial fold treatment
+                                                    with Botox</p>
+                                                <p class="descr">
+                                                    Thankfully, treatments like Botox exist to turn back the clock and
+                                                    improve the appearance of nasolabial folds. So can Botox help ease
+                                                    these folds back into their place? Yes, it can. By combining it with
+                                                    a filler, an expert doctor can soften the muscles at the corners of
+                                                    the mouth and fill in the folds.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servicesgroup">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="aftbefblock">
+                                    <p class="title white">Fillers</p>
+                                    <div class="aftbefbox">
+                                        <p class="aftbefbox__title">Before</p>
+                                        <div class="imgwrap">
+                                            <img src="img/aftbef3.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="aftbefbox">
+                                        <p class="aftbefbox__title">After</p>
+                                        <div class="imgwrap">
+                                            <img src="img/aftbef4.png" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7">
+                                <div class="row servrow">
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Chin Augmentation</p>
+                                                <p class="descr">
+                                                    A chin filler injection is a nonsurgical procedure that alters the
+                                                    contour and definition of the chin. It is popular for people who are
+                                                    insecure about their side profile and want a more balanced facial
+                                                    structure. Chin augmentation fillers can create a stronger jawline,
+                                                    making the face look more youthful.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Lip augmentation</p>
+                                                <p class="descr">
+                                                    Lip augmentation is a type of procedure that aims to increase lip
+                                                    fullness through enlargement using fillers such as hyaluronic acid,
+                                                    fat, or implants.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Jaw line with fillers</p>
+                                                <p class="descr">
+                                                    Jawline filler is a nonsurgical procedure that gives your jawline a
+                                                    more defined look. You will be injected with a safe substance called
+                                                    fillers underneath your skin. The filler plumps up your skin. You
+                                                    get smoother-looking skin that looks more youthful.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Nasolabial Filler</p>
+                                                <p class="descr">
+                                                    Nasolabial folds are common wrinkles that form alongside your inner
+                                                    cheeks. They stretch from the bottom of your nose to the corners of
+                                                    your mouth. Fillers are injectable compounds used in the treatment
+                                                    of facial wrinkles. They work by “plumping” the area of the skin so
+                                                    that fine lines and deep wrinkles appear smoother. All types of
+                                                    fillers help to stimulate collagen, a skin-plumping protein that you
+                                                    naturally lose with age.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Nonsurgical Nasal Correction</p>
+                                                <p class="descr">
+                                                    Nonsurgical Nasal Correction is a cosmetic procedure where dermal
+                                                    fillers are used to temporarily change the shape of your nose. It’s
+                                                    an alternative for people who don’t want to undergo plastic surgery.
+                                                    Your healthcare provider can complete the treatment in one office
+                                                    visit. Results typically last up to six months.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Cheeks with fillers</p>
+                                                <p class="descr">
+                                                    Cheek fillers, also known as Cheek augmentation, provide volume to
+                                                    and all around your cheekbones. Dermal fillers are used to create
+                                                    that instant ‘plumping’ effect, restoring and boosting the volume of
+                                                    the cheeks and give definition to the natural cheekbone structure,
+                                                    recreating the youthful contours of the face.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">But augmentation with radiass</p>
+                                                <p class="descr">
+                                                    Radiesse is a dermal filler used to diminish wrinkles and plump
+                                                    skin. It has applications for wrinkles on many parts of your body,
+                                                    including the face. Radiesse can also be used as a non-surgical
+                                                    method of enhancing and modifying certain parts of your face.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servicesgroup">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="aftbefblock">
+                                    <p class="title">Laser Treatment</p>
+                                    <div class="aftbefbox onepic">
+                                        <p class="aftbefbox__title"><span>Before</span><span>After</span></p>
+                                        <div class="imgwrap">
+                                            <img src="img/aftbef5.png" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7">
+                                <div class="row servrow">
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Laser Carbon Peel</p>
+                                                <p class="descr">
+                                                    A carbon laser peel is a treatment that helps with acne, uneven skin
+                                                    tone enlarged pores and oily skin. They’re sometimes called carbon
+                                                    laser facials. Despite the name, a carbon laser peel isn’t a
+                                                    traditional chemical peel. Instead, we use carbon solution and
+                                                    lasers to create a peeling effect.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="servicesgroup lightbg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5">
+                                <div class="aftbefblock">
+                                    <div class="aftbefblock">
+                                        <p class="title pink">Other Treatments</p>
+                                        <div class="aftbefbox">
+                                            <p class="aftbefbox__title">Before</p>
+                                            <div class="imgwrap">
+                                                <img src="img/aftbef7.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="aftbefbox">
+                                            <p class="aftbefbox__title">After</p>
+                                            <div class="imgwrap">
+                                                <img src="img/aftbef8.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7">
+                                <div class="row servrow">
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">IV infusion therapy with vitamins</p>
+                                                <p class="descr">
+                                                    We offer an array of IV therapy services that offer near-instant
+                                                    relief to many of the issues that may be causing you to not feel
+                                                    well. IV therapy involves administering nutrients and vitamins
+                                                    directly into the bloodstream intravenously for fast and effective
+                                                    relief.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Weight Loss Therapy</p>
+                                                <p class="descr">
+                                                    Weight loss therapy is a form of cognitive-behavioral therapy that
+                                                    focuses on lifestyle changes that promote weight loss. Diet and
+                                                    exercise impact the physical element of losing weight. Therapy
+                                                    tackles the mental side. If you can get your mind and body working
+                                                    in unison, you are more likely to lose weight and keep it off.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Mesotherapy</p>
+                                                <p class="descr">
+                                                    Mesotherapy is a technique that uses injections of vitamins,
+                                                    enzymes, hormones, and plant extracts to rejuvenate and tighten
+                                                    skin, as well as remove excess fat.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Nonsurgical Fat Reduction </p>
+                                                <p class="descr">
+                                                    Nonsurgical fat reduction includes technology that uses heat or
+                                                    cooling or an injected medication to reduce fat. While none of these
+                                                    treatments are a replacement for liposuction, they provide options
+                                                    for patients unwilling or unable to undergo surgery. Nonsurgical fat
+                                                    reduction options use a variety of modalities, including ultrasound,
+                                                    radio frequency, infrared light, vacuum massage, and injectable
+                                                    medication.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Nadezhda Badalova</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="servicebox">
+                                            <div class="servicebox__info">
+                                                <p class="servtitle">Semaglutide</p>
+                                                <p class="descr">
+                                                    The anti-diabetic drug semaglutide reduces appetite and can reduce
+                                                    body weight by up to 20%. This is evidenced by the results of large
+                                                    international studies. Semaglutide has proven to be extremely
+                                                    effective in the treatment of obesity.
+                                                </p>
+                                                <p class="procedure">The procedure is performed by specialist doctor:
+                                                </p>
+                                                <p class="docname">Dr. Irina Espinar</p>
+                                            </div>
+                                            <a href="#" class="servicebox__link">
+                                                <span>
+                                                    Read more
+                                                    <img src="img/linkarrow.svg" alt="arrow">
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="promotion">
+            <div class="container">
+                <h2>Promotions and discounts</h2>
+            </div>
+            <div class="sliderwrapper">
+                <div class="promotionslider">
+                    <div>
+                        <div class="promotionslide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__left">
+                                            <p class="title">Gift certificate</p>
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic1.jpg" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__right">
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic2.png" alt="img">
+                                            </div>
+                                            <div class="descr">
+                                                <div class="percentdiscont">
+                                                    <span>20%</span>
+                                                    <p>
+                                                        Off on all our cosmetology services at our clinic, and let our
+                                                        experienced team help you achieve your beauty goals!
+                                                    </p>
+                                                </div>
+                                                <a href="#" class="pinkbtn">Get sertificate</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="promotionslide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__left">
+                                            <p class="title">Gift certificate</p>
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic1.jpg" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__right">
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic2.png" alt="img">
+                                            </div>
+                                            <div class="descr">
+                                                <div class="percentdiscont">
+                                                    <span>20%</span>
+                                                    <p>
+                                                        Off on all our cosmetology services at our clinic, and let our
+                                                        experienced team help you achieve your beauty goals!
+                                                    </p>
+                                                </div>
+                                                <a href="#" class="pinkbtn">Get sertificate</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="promotionslide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__left">
+                                            <p class="title">Gift certificate</p>
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic1.jpg" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="promotionslide__right">
+                                            <div class="imgwrap">
+                                                <img src="img/sliderpic2.png" alt="img">
+                                            </div>
+                                            <div class="descr">
+                                                <div class="percentdiscont">
+                                                    <span>20%</span>
+                                                    <p>
+                                                        Off on all our cosmetology services at our clinic, and let our
+                                                        experienced team help you achieve your beauty goals!
+                                                    </p>
+                                                </div>
+                                                <a href="#" class="pinkbtn">Get sertificate</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonialssect">
+            <div class="container">
+                <h2>
+                    What they’re talking <br> about us
+                    <img src="img/heart.svg" alt="heart">
+                </h2>
+                <div class="testimonialsslider">
+                    <div>
+                        <div class="testimonialsslide">
+                            <p class="name">Shunita A.</p>
+                            <div class="testimrating">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                            </div>
+                            <div class="testimdescr">
+                                <p>
+                                    This provider showed real concerns for my problems and came up with a plan to
+                                    resolve
+                                    the reason I came to her office
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialsslide">
+                            <p class="name">Jillian C.</p>
+                            <div class="testimrating">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                            </div>
+                            <div class="testimdescr">
+                                <p>
+                                    She was friendly and understanding took the time to understand what was going on
+                                    with me and the best way to help me out
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialsslide">
+                            <p class="name">LL</p>
+                            <div class="testimrating">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                            </div>
+                            <div class="testimdescr">
+                                <p>
+                                    It was an amazing experience. Very professional exellent bedside manor. No issues or
+                                    complaints customer services was great.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonialsslide">
+                            <p class="name">Jillian C.</p>
+                            <div class="testimrating">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                                <img src="img/star.svg" alt="img">
+                            </div>
+                            <div class="testimdescr">
+                                <p>
+                                    She was friendly and understanding took the time to understand what was going on
+                                    with me and the best way to help me out
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment">
+            <div class="payment__leftsect">
+                <h3>
+                    We are excited to announce that<br> we now offer payment plans at<br> Touched By MDS!
+                </h3>
+                <p>
+                    Have you been waiting on a service that was just a little out of reach? Wait no more! See how
+                    affordable your treatment can be by applying here:
+                </p>
+                <div class="payment__apply">
+                    <a href="#" class="pinkbtn">Aplly now</a>
+                    <div class="crcard">
+                        <p>We also accept care credit</p>
+                        <ul>
+                            <li><img src="img/mastercard.png" alt="img"></li>
+                            <li><img src="img/visa.png" alt="img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="payment__rightsect">
+                <div class="imgwrap">
+                    <img src="img/paymentimg.jpg" alt="img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__topsect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="footer__logo">
+                            <a href="index.html">
+                                <img src="img/logo-footer.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="footerboxes">
+                            <div class="footerbox">
+                                <p class="title">Where to find us?</p>
+                                <ul class="socfooter">
+                                    <li><a href="contacts.html">Contact page</a></li>
+                                    <li><a target="_blank" href="https://www.google.com.ua/maps/place/7915+Metropolitan+Ave,+Middle+Village,+NY+11379,+%D0%A1%D0%A8%D0%90/@40.7135591,-73.875614,17z/data=!4m6!3m5!1s0x89c25e6ee6f9852d:0x3c332f5a104146f0!8m2!3d40.7134249!4d-73.8737257!16s%2Fg%2F11c22tv4gd?hl=en">7915 Metropolitan Ave, Middle Village, NY 11379</a></li>
+                                    <li><a href="tel:3474039726">(347) 403-9726</a></li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="img/instagram-footer.svg" alt="instagram">
+                                        </a>
+                                        <a href="#" target="_blank">
+                                            <img src="img/fb-footer.svg" alt="facebook">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footerbox">
+                                <p class="title">Botox</p>
+                                <ul>
+                                    <li><a href="services.html">Botox injections</a></li>
+                                    <li><a href="services.html">Hyperhydrosis of armpits and palms with Botox</a></li>
+                                    <li><a href="services.html">Gummy Smile</a></li>
+                                    <li><a href="services.html">Masseter Botox</a></li>
+                                    <li><a href="services.html">Migraine Botox</a></li>
+                                    <li><a href="services.html">Wrinkle Therapy</a></li>
+                                    <li><a href="services.html">Nasolabial fold treatment with Botox</a></li>
+                                </ul>
+                            </div>
+                            <div class="footerbox">
+                                <p class="title">Fillers</p>
+                                <ul>
+                                    <li><a href="services.html">Chin Augmentation</a></li>
+                                    <li><a href="services.html">Lip Augmentation</a></li>
+                                    <li><a href="services.html">Jaw line with fillers</a></li>
+                                    <li><a href="services.html">Nasolabial Filler</a></li>
+                                    <li><a href="services.html">Nonsurgical Nasal Correction</a></li>
+                                    <li><a href="services.html">Cheeks with fillers</a></li>
+                                    <li><a href="services.html">But augmentation with radiass</a></li>
+                                </ul>
+                            </div>
+                            <div class="footerbox">
+                                <p class="title">Laser Treatment</p>
+                                <ul>
+                                    <li><a href="services.html">Laser Carbon Peel</a></li>
+                                </ul>
+                            </div>
+                            <div class="footerbox">
+                                <p class="title">Other Treatments</p>
+                                <ul>
+                                    <li><a href="services.html">IV infusion therapy with vitamins</a></li>
+                                    <li><a href="services.html">Weight Loss Therapy</a></li>
+                                    <li><a href="services.html">Mesotherapy</a></li>
+                                    <li><a href="services.html">Nonsurgical Fat Reduction</a></li>
+                                    <li><a href="services.html">Semaglutide</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__botsect">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="crtext">
+                            © Copyright 2023 Touched by MDS
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fpm">
+                            <p>We also accept care credit</p>
+                            <ul>
+                                <li><img src="img/mastercard.png" alt="img"></li>
+                                <li><img src="img/visa.png" alt="img"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/plyr-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="js/lib/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+.serviceheroscreen.contact {
+    height: 490px;
+
+    img {
+        object-position: 50% -110px;
+    }
+
+    .breadcrumbs {
+        span {
+            color: #fff;
+
+            a {
+                color: rgba(255, 255, 255, 0.8);
+                transition: 0.3s;
+
+                &:hover {
+                    color: #fff;
+                }
+
+                &::after {
+                    background-image: url(../img/arrow_breadcrumbswhite.svg);
+                }
+            }
+        }
+    }
+
+    .serviceheroscreen__inner {
+        padding-top: 100px;
+
+        h1 {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin: 0 auto;
+            max-width: 396px;
+            color: #fff;
+            font-size: 18px;
+            line-height: 160%;
+        }
+    }
+
+
+}
+
+.contactsection {
+    background: linear-gradient(180deg, #FBFBFB 0%, #FFFFFF 100%);
+    border-radius: 30px 30px 0px 0px;
+    margin-top: -120px;
+    z-index: 2;
+    position: relative;
+    padding: 110px 0;
+}
+
+.contactbox {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px -4px rgba(54, 19, 19, 0.05);
+    border-radius: 20px;
+    max-width: 335px;
+    margin-bottom: 20px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .title {
+        margin-bottom: 20px;
+        color: #975D7C;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    p {
+        color: #424242;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    a {
+        color: #424242;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 160%;
+    }
+
+    .contactbox__soc {
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .contactbox__time {
+        li {
+            display: flex;
+            margin-bottom: 10px;
+
+            span {
+                &:nth-child(1) {
+                    color: #2F2D2C;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 160%;
+                    flex: 0 0 auto;
+                    width: 50px;
+                }
+
+                &:nth-child(2) {
+                    color: #424242;
+                    font-size: 18px;
+                    line-height: 160%;
+                    flex: 0 0 auto;
+                    width: calc(100% - 50px);
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
+
+.contactmapwrapper {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px -4px rgba(54, 19, 19, 0.04);
+    border-radius: 30px;
+
+    img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+
+@media(max-width:1599.8px) {
+
+    .contactbox p,
+    .contactbox a {
+        font-size: 18px;
+    }
+
+    .contactsection {
+        padding: 100px 0;
+    }
+}
+
+@media(max-width:1440.8px) {
+    .serviceheroscreen.contact img {
+        object-position: 50% -60px;
+    }
+}
+
+@media(max-width:1399.8px) {
+    .serviceheroscreen.contact img {
+        object-position: 50% -40px;
+    }
+
+    .contactbox .title {
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+
+    .contactbox p,
+    .contactbox a,
+    .contactbox .contactbox__time li span:nth-child(2),
+    .contactbox .contactbox__time li span:first-child {
+        font-size: 16px;
+    }
+
+    .contactbox {
+        padding: 20px;
+    }
+
+    .contactbox .contactbox__soc li {
+        margin-right: 15px;
+    }
+
+    .contactsection {
+        padding: 70px 0;
+    }
+
+
+
+}
+
+@media(max-width:991.8px) {
+    .contactbox .title {
+        font-size: 18px;
+    }
+
+    .contactbox a,
+    .contactbox p {
+        font-weight: 500;
+    }
+
+}
+
+@media(max-width:767.8px) {
+    .contactsection {
+        padding: 50px 0;
+    }
+
+    .contactbox {
+        max-width: 100%;
+    }
+
+    .contactmapwrapper {
+        height: 400px;
+    }
+
+    .contactmapwrapper img {
+        object-position: 50% 40%;
+    }
+
+}
+
+@media(max-width:575.8px) {
+
+    .contactsection {
+        padding: 15px 0;
+    }
+
+    .serviceheroscreen.contact .serviceheroscreen__inner p {
+        font-size: 16px;
+    }
+
+    .contactmapwrapper {
+        height: 300px;
+    }
+
+}
+
+
+
+
+
+
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Segoeui';

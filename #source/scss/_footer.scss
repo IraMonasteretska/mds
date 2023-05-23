@@ -1,0 +1,239 @@
+footer.footer {
+    position: relative;
+    z-index: 2;
+    
+    .footer__topsect {
+        background: #975D7C;
+        padding: 70px 0;
+    }
+
+    .footer__logo {
+        img {
+            max-width: 100%;
+        }
+    }
+
+}
+
+.footerboxes {
+    display: flex;
+    justify-content: space-between;
+
+    .footerbox {
+        &:nth-child(1) {
+            flex: 0 0 auto;
+            width: 25%;
+
+            ul {
+                li {
+                    &:nth-child(3) {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        width: 85px;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            flex: 0 0 auto;
+            width: 13%;
+        }
+
+        &:nth-child(3) {
+            flex: 0 0 auto;
+            width: 13%;
+        }
+
+        &:nth-child(4) {
+            flex: 0 0 auto;
+            width: 13%;
+        }
+
+        &:nth-child(5) {
+            flex: 0 0 auto;
+            width: 17%;
+        }
+
+        p.title {
+            color: #fff;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 120%;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            li {
+                margin-bottom: 25px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    color: #fff;
+                    color: rgba(255, 255, 255, 0.8);
+                    font-size: 16px;
+                    line-height: 140%;
+                    transition: 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer__botsect {
+    height: 80px;
+    background: linear-gradient(0deg, #F0F8FB, #F0F8FB), #663F54;
+    display: flex;
+    align-items: center;
+}
+
+.fpm {
+    text-align: right;
+
+    p {
+        display: inline-block;
+        margin-right: 30px;
+        color: rgba(66, 66, 66, 0.8);
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    ul {
+        display: inline-flex;
+        align-items: center;
+
+        li {
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
+@media(max-width:1599.8px) {
+    .footerboxes .footerbox ul li {
+        margin-bottom: 20px;
+    }
+
+    .footerboxes .footerbox p.title {
+        font-size: 18px;
+    }
+
+
+
+
+}
+
+@media(max-width:1399.8px) {
+    .footerboxes .footerbox ul li a {
+        font-size: 15px;
+    }
+
+    .footer__botsect {
+        height: 60px;
+    }
+
+
+}
+
+@media(max-width:1199.8px) {
+
+    .footerboxes .footerbox:nth-child(2),
+    .footerboxes .footerbox:nth-child(3),
+    .footerboxes .footerbox:nth-child(4) {
+        width: 15%;
+    }
+}
+
+@media(max-width:991.8px) {
+
+    .footer__logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footerboxes {
+        flex-wrap: wrap;
+    }
+
+    .footerboxes .footerbox:first-child {
+        width: 100% !important;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footerboxes .footerbox:first-child ul li:nth-child(4) {
+        margin: 0 auto;
+    }
+
+    .footerboxes .footerbox:nth-child(2),
+    .footerboxes .footerbox:nth-child(3),
+    .footerboxes .footerbox:nth-child(4),
+    .footerboxes .footerbox:nth-child(5) {
+        width: 20%;
+    }
+
+
+}
+
+@media(max-width:767.8px) {
+
+    .crtext,
+    .fpm {
+        text-align: center;
+    }
+
+    .crtext {
+        margin-bottom: 10px;
+    }
+
+    .footer__botsect {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .fpm p {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:575.8px) {
+
+    footer.footer .footer__topsect {
+        padding: 50px 0 20px;
+    }
+
+    .footer__logo {
+        margin-bottom: 20px;
+    }
+
+    .footerboxes .footerbox ul li {
+        margin-bottom: 10px;
+    }
+
+    .footerboxes .footerbox:nth-child(2),
+    .footerboxes .footerbox:nth-child(3),
+    .footerboxes .footerbox:nth-child(4),
+    .footerboxes .footerbox:nth-child(5) {
+        width: 50%;
+    }
+
+    .footerboxes .footerbox {
+        margin-bottom: 30px;
+    }
+
+
+}
